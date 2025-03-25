@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//@atakanclskn
+
 namespace ConsoleApp5
 {
 	//counter-controlled iteration with the while iteration statement

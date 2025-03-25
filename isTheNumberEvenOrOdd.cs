@@ -7,26 +7,27 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+//@atakanclskn
+
 namespace ConsoleApp5
 {
     class Program
     {
-        //( Sayının tek mi? Çift mi? durumunu bulma )
+        // ( Determine if the number is odd or even )
         static void Main(string[] args)
         {
-            int sayi;
-            Console.Write("Sayı giriniz:");
-            sayi = Convert.ToInt32(Console.ReadLine());
-            if (sayi % 2 == 0)
+            int number;
+            Console.Write("Enter a number:");
+            number = Convert.ToInt32(Console.ReadLine());
+            if (number % 2 == 0)
             {
-                Console.WriteLine("Sayı çifttir");
+                Console.WriteLine("The number is even");
             }
             else
             {
-                Console.WriteLine("Sayı tektir");
+                Console.WriteLine("The number is odd");
             }
             Console.ReadKey();
-
         }
     }
 }
